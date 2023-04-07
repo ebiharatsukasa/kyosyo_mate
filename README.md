@@ -66,7 +66,7 @@ https://www.figma.com/file/BaXInUfwCKFp8vtqC02B7c/%E7%94%BB%E9%9D%A2%E9%81%B7%E7
 
 ■スケジュール
 企画〜技術調査：3/22 〆切
-README〜ER図作成：4/5 〆切
-メイン機能実装：5/8 〆切
-β版をRUNTEQ内リリース（MVP）：5/8 〆切
-本番リリース：5/29
+README〜ER図作成：4/6 〆切
+メイン機能実装：5/14 〆切
+β版をRUNTEQ内リリース（MVP）：5/15 〆切
+本番リリース：5/31
