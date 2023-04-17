@@ -1,6 +1,6 @@
 .container
   h1
-    | サインアップ
+    = t('.title')
   = form_with model: @user, local: true do |f|
     .form-group
       = f.label :name
@@ -14,6 +14,6 @@
     .form-group
       = f.label :password_confirmation
       = f.password_field :password_confirmation
-    = f.submit 'サインアップ'
+    = f.submit t('.')
   .text-center
-    = link_to 'ログインはこちら', login_path
+    = link_to t('.to_login_page'), login_path
