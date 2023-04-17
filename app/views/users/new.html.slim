@@ -1,0 +1,19 @@
+.container
+  h1
+    | サインアップ
+  = form_with model: @user, local: true do |f|
+    .form-group
+      = f.label :name
+      = f.text_field :name
+    .form-group
+      = f.label :email
+      = f.email_field :email
+    .form-group
+      = f.label :password
+      = f.password_field :password
+    .form-group
+      = f.label :password_confirmation
+      = f.password_field :password_confirmation
+    = f.submit 'サインアップ'
+  .text-center
+    = link_to 'ログインはこちら', login_path
